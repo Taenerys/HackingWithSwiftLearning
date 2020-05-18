@@ -29,6 +29,8 @@ class ViewController: UIViewController {
         button2.layer.borderColor = UIColor.lightGray.cgColor
         button3.layer.borderColor = UIColor.lightGray.cgColor
         
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Score", style: .plain, target: self, action: #selector(scoreTapped))
+        
         // Do any additional setup after loading the view.
         countries += ["estonia", "france", "germany", "ireland", "italy", "monaco", "nigeria", "poland", "russia", "spain", "uk", "us"]
         askQuestion(action: nil)
@@ -42,7 +44,7 @@ class ViewController: UIViewController {
         button2.setImage(UIImage(named: countries[1]), for: .normal)
         button3.setImage(UIImage(named: countries[2]), for: .normal) //.normal is a static property of a struct called UIControlState in Swift
         
-        title = "Score: \(score) -  Tap on \(countries[correctAnswer].uppercased())"
+        title = countries[correctAnswer].uppercased()
     }
 
     @IBAction func buttonTapped(_ sender: UIButton) {
@@ -72,6 +74,12 @@ class ViewController: UIViewController {
         } else {
             present(wrong_ac, animated: true)
         }
+    }
+    
+    @objc func scoreTapped() {
+        let scoreAlert = UIAlertController(title: "Score", message: "\(score)", preferredStyle: .alert)
+        scoreAlert.addAction(UIAlertAction(title: "Continue", style: .default, handler: nil))
+        present(scoreAlert, animated: true)
     }
     
 }
