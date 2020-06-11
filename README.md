@@ -10,3 +10,4 @@ List of projects (so far):
 4. A web browser app: an app that open browsers of the website users want to see (this is a project I struggled with the most so far, but the end result was rewarding!)
 5. Scramble Word Game: a small game where users are challenged to put in anagrams of a word given.
 6. A technique project which were split into 6a and 6b: 6a is improving on Project 2 and 6b is all about learning Auto Layout.
+7. Whitehouse Petitions: a small app in which I pulled JSON data from the Whitehouse website and display as table.
