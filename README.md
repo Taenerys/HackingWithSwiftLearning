@@ -12,3 +12,4 @@ List of projects (so far):
 6. A technique project which were split into 6a and 6b: 6a is improving on Project 2 and 6b is all about learning Auto Layout.
 7. Whitehouse Petitions: a small app in which I pulled JSON data from the Whitehouse website and display as table.
 8. Swiftly Game: a word connection game in which I learnt how to code the UI 100% programmatically.
+9. Grand Central Dispatch: a technique project to apply Grand Central Dispatch framework into project 7. Learnt about concurrency and multithreading.
