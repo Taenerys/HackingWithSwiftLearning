@@ -13,3 +13,4 @@ List of projects (so far):
 7. Whitehouse Petitions: a small app in which I pulled JSON data from the Whitehouse website and display as table.
 8. Swiftly Game: a word connection game in which I learnt how to code the UI 100% programmatically.
 9. Grand Central Dispatch: a technique project to apply Grand Central Dispatch framework into project 7. Learnt about concurrency and multithreading.
+10. Names to Faces: an app where users can add pictures and names of people they want to learn their names. Learnt about UICollectionView and UIImagePicker.
